@@ -120,4 +120,7 @@
 .mussels {
   height: 500px;
   width: 350px;
+  border: solid;
+  border-color: #e6e6e6;
+  border-radius: 10%;
 }
