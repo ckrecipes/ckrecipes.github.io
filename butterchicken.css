@@ -110,3 +110,10 @@
   font-weight: 700;
   margin: 15px;
 }
+
+.image1 {
+  border: solid;
+  border-color: #e6e6e6;
+  border-radius: 10%;
+}
+
