@@ -1,0 +1,118 @@
+* {
+  background-color: #e6e6e6;
+  font-family: IBM Plex Mono;
+  color: #8c8c8c;
+}
+.container {
+  display: grid;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.leftbar {
+  grid-column: 1 / span 1;
+  width: 13vw;
+  height: 100vh;
+  padding-top: 10px;
+  font-size: 12px;
+}
+.taskbar {
+  grid-column: 1 / span 1;
+  width: 13vw;
+  padding-top: 80px;
+  font-size: 12px;
+  position: fixed;
+}
+
+.logo {
+  position: fixed;
+  z-index: 2;
+}
+
+.centerbar {
+  grid-column: 2 / span 1;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+
+.rightbar {
+  grid-column: 3 / span 1;
+  padding-left: 30px;
+  width: 300px;
+  padding-top: 10px;
+  padding-right: 150px;
+  font-size: 12px;
+  color: black;
+}
+
+.head {
+  font-size: 30px;
+  font-weight: bold;
+  color: black; 
+  width: 500px;
+  border-bottom: solid;
+}
+.main {
+  font-size: 12px;
+  color: black;
+}
+
+.link {
+  color: blue;
+}
+
+.picture1 {
+  width: 250px;
+  height: 200px;
+  padding-bottom: 50px;
+}
+
+.picture2 {
+  width: 250px;
+  height: 300px;
+  padding-bottom: 50px;
+}
+
+.picture3 {
+  width: 350px;
+  height: 400px;
+  padding-bottom: 50px;
+}
+
+.picture4 {
+  width: 350px;
+  height: 400px;
+  padding-bottom: 50px;
+}
+.recipe-picture {
+  width: 400px;
+  height: 300px;
+}
+
+.title {
+  color: black;
+  font-size: 15px;
+}
+
+.recipe {
+  color: black;
+  font-size: 20px;
+  padding-top: 50px;
+}
+
+.entree {
+  color: black;
+  font-weight: 700;
+}
+
+.b {
+  color: black;
+  font-weight: 700;
+  margin: 15px;
+}
+
+.image1 {
+  border: solid;
+  border-color: #e6e6e6;
+  border-radius: 10%;
+}
